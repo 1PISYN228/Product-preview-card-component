@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+    <title>Document</title>
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="../font/fonts.css">
+</head>
+<body>
+    <main>
+        <div class="bg-[hsl(30,38%,92%)] py-44 pb-60">
+            <article class="grid md:flex justify-center">
+                <img src="../images/image-product-desktop.jpg" alt="Product" class="rounded-tl-3xl rounded-bl-3xl 
+                 hidden md:flex w-[20vw] h-[auto] min-w-[370px] max-w-full ">
+                <img src="../images/image-product-mobile.jpg" alt="image-product-mobile" class="block md:hidden rounded-tr-3xl rounded-tl-3xl
+                w-[50vw] h-auto min-w-[350px] max-w-full object-contain">
+
+                <div class="bg-white rounded-bl-3xl rounded-br-3xl md:rounded-bl-none md:rounded-tr-3xl md:rounded-br-3xl p-7 md:p-10 flex flex-col gap-7 md:gap-8">
+                    <h1 class="montserrat text-[hsl(228,12%,48%)] tracking-[5px] text-[clamp(1.1rem,0.9vw,5rem)] font-medium">PERFUME</h1>
+                    <p class="fraunces font-bold text-[clamp(1.7rem,2.7vw,5rem)] leading-8 md:leading-9 lg:leading-10 xl:leading-14">Gabrielle<br class="hidden md:block">
+                        Essence Eau<br>
+                        De Parfum</p>
+                    <p class="montserrat text-[hsl(228,12%,48%)] font-medium text-[clamp(1.1rem,1vw,5rem)]">A floral, solar and voluptuous<br>
+                        interpretation composed by<br>
+                        Olivier Polge, Perfumer-Creator<br>
+                        for the House of CHANEL.</p>
+                    <div class="flex gap-10 items-center">
+                        <span class="fraunces font-bold text-[clamp(2.1rem,2.5vw,5rem)] text-[hsl(158,36%,37%)]">$149.99</span>
+                        <span class="montserrat text-[hsl(228,12%,48%)] font-medium text-[clamp(1.1rem,1vw,5rem)] line-through">$169.99</span>
+                    </div>
+                    <button class="montserrat text-white bg-[hsl(158,36%,37%)] rounded-md py-3 font-medium hover:bg-[hsl(158,42%,18%)]
+                    cursor-pointer text-[clamp(1.1rem,1vw,5rem)] flex items-center justify-center gap-2">
+                        <img src="https://images.icon-icons.com/1909/PNG/512/4544843-business-comerce-delivery-shop-trolley_121443.png" alt=""
+                        class="bg-transparent w-[35px] invert">
+                        <span>Add to Cart</span>
+                    </button>
+                </div>
+            </article>
+        </div>
+    </main>
+</body>
+</html>
